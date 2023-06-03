@@ -10,4 +10,12 @@ Syeda Fatima Zahra: 334379
  
 # Abstract
 
-We have successfully developed and deployed a versatile audio search engine that exhibits several desirable features. The algorithm is designed to be resilient against noise and distortion, ensuring accurate identification of short music segments captured via cellphone microphones, even in the presence of foreground voices and other prominent background noise. It can effectively handle the challenges posed by voice codec compression and operates efficiently on a vast scale, accommodating a database with over a million tracks. By utilizing a unique approach based on combinatorially hashed time-frequency constellation analysis of the audio, the algorithm offers remarkable characteristics, including transparency. This means that even when multiple tracks are mixed together, the engine can identify each individual track. Additionally, for applications such as radio monitoring, the search process is incredibly fast, with query times as short as a few milliseconds per search, even when dealing with a massive music database.
+We have successfully developed a versatile audio search project that exhibits several desirable features. The algorithm is designed to be resilient against noise and distortion, ensuring accurate identification of short music segments captured via cellphone microphones. It can effectively handle the challenges posed by voice codec compression and operates efficiently on a vast scale, accommodating a database with over a million tracks. By utilizing a unique approach based on combinatorially hashed time-frequency constellation analysis of the audio, the algorithm offers remarkable characteristics, including transparency. This means that even when multiple tracks are mixed together, the engine can identify each individual track. Additionally, for applications such as radio monitoring, the search process is incredibly fast, deteting the songs added to the database; in our case, we added three songs to the database.
+
+# Acknowledgements
+
+Reinhard Sonnleitner, PhD Thesis
+
+Audio Identification via Fingerprinting Achieving Robustness to Severe Signal Modifications Sébastien Fenet, PhD Thesis
+
+Audio-Fingerprints And Associated Indexing Strategies For The Purpose Of Large-Scale Audio-Identification Avery Li-Chun Wang
